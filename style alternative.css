@@ -1,0 +1,171 @@
+.contactandsm {
+	font-family:sans-serif;
+	color:orange;
+	text-align:center;
+}
+h1 {
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.title1 {
+	font-family:sans-serif;
+	color: gold;
+}
+h2 {
+	font-family:sans-serif;
+	margin-bottom: 21px;
+	text-align: center;
+}
+p {
+	color: #00ff00;
+	text-align: center;
+	font-family:sans-serif;
+}
+.Formcolour {
+	font-family:sans-serif;
+	color:black;
+}
+li {
+	color: #5858FA;
+	text-align: center;
+}
+br {
+	color: #c0a22f;
+	text-align: center;
+}
+body { /*This is the alternative background used for the stylesheet swap*/
+	background-image: url(deep_space_4k-3840x2160.jpg);
+}  
+img {
+    display: block;
+    margin: 0 auto;
+}
+form {
+	text-align: center;
+}
+}
+a {
+	text-decoration: none;
+	color: #028af2;
+}
+a:hover {
+	color: white;
+	text-decoration: underline
+}
+i {
+	text-decoration: none;
+	color: #9bd3ff;
+}
+i:hover {
+	color: white;
+	text-decoration: underline
+}
+.Myinstagram {                             
+    font-family: sans-serif;
+}
+.linkedin {
+	text-decoration: none;
+	color: #9bd3ff;
+}
+.linkedin:hover {
+	color: white;
+	text-decoration: underline;
+}
+.myfacebook {
+	text-decoration: none;
+	color: #9bd3ff;
+}
+.myfacebook:hover {
+	color: white;
+	text-decoration: underline;
+}
+a:visited {
+	color: white;                       
+}
+.salesforcelogo {
+ margin-bottom: 10px;
+ display:block;
+}
+.salesforcelogo:hover {                                   
+   background-image: url('mountain.jpg');
+   background-size: auto 300px;
+   background-position: center;
+}
+.aboutme {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 20%;
+	padding-top: 20%;
+}
+.section1 {
+	margin-bottom: 30px
+    background-color:gold;
+}
+.divsection1 {
+	background:linear-gradient (45dg,gold,gold);
+	padding-bottom: 130px
+}
+section {
+	border-top: 10px gold solid
+}
+.experience {
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.aboutandwork {
+	color: white;
+}
+.experience1 {
+	color: white;
+}
+.mypicture {
+	padding-bottom: 10%
+}
+.jobrole {
+	color: white;
+}
+.headerbg {
+	background-color: darkblue;
+	padding-bottom: 2%;
+}
+.nav {
+	padding-top: 2%;
+}
+.themelist{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.themelink{
+	padding: 6px 8px;
+	color: white;
+}
+.themeli{
+	display: inline;
+}
+.theme{
+	text-align: center;
+}
+}
+
+@media (min-width: 600px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

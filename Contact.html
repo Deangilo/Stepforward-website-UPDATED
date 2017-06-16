@@ -1,0 +1,53 @@
+<html lang="en-gb">
+    <head>
+    <!-- The head section covers all references to external sheets and bootstraps. The bootstraps used makes it so that the image of myself and the text are alligned with eachother, and if the page is compacted, the image is displayed ontop of the paragraph of text. -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Luca Sarno</title>
+    </head>
+    <body>
+     <div class="headerbg">
+      <header>
+      <!-- In order for the user to navigate back to the home page, I added another nav for this html and used the href to link the home html document to this document.-->
+        <nav class="nav">
+            <p>
+              <a href='index.html'>Home</a>
+            </p>
+        </nav>
+      </header>  
+     </div>
+     <!-- In this section I have used the href and i functions to add links and a emote to the text. The Instagram has a <i> function that lets me add emoticons to text, using this I added a camera.-->
+        <section id="contact">
+          <h1 class="contactandsm">Contact & Social Media</h1>
+            <p><b>My Email:</b> lucasarno.ls@googlemail.com</p>
+            <p>
+            <a href='https://www.instagram.com/lucadeangilosarno/'><i class="fa fa-camera-retro"><b class="Myinstagram">My Instagram</b></i></a>
+            </p>
+            <p>
+            <a href='https://www.linkedin.com/in/luca-sarno-b29592131/'><b class="Linkedin">My LinkedIn</b></a>
+            </p>
+            <p>
+            <a href='https://www.facebook.com/luca.sarno.58?fref=pb&hc_location=friends_tab&pnref=friends.all'><b class="Myfacebook">My Facebook</b></a>
+            </p>
+
+     <!-- I have added a "submitt" form on the contact page that captures and displays information using javascript returning the values entered in a pop up window. I have also added validation in the email address to prevent any invalud formats being entered.-->
+          <form method="input" > 
+           <h4>Contact Me</h4>
+            <p class="Formcolour">First Name: <br>
+            <input type="text" id="firstname"><br>
+            Last name: <br> 
+            <input type="text" id="lastname"><br>
+            Email: <br>
+            <input type="text" id="email" onlostfocus="validate()"><br>
+            Message: <br>
+            <input type="text" id="message"><br></p>
+            <br>
+            <button onclick="Sendinfo()"name="send">Send<br>
+            </button>
+        </section>
+      <footer><p> Created by: Luca Sarno
+      <script src="Form.js"> 
+      </script>
+    </body>
+</html>

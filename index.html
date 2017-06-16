@@ -1,0 +1,93 @@
+<html lang="en-gb">
+    <head>
+        <link rel="stylesheet" href="style.css" title="bgpicture">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="alternate stylesheet" href="style alternative.css" title="grey">
+        <title>Luca Sarno</title>
+        <!-- Here is the Javascript code to switch between style sheets using the script element-->
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="style.css"> 
+        <script type="text/javascript">
+        function swapStyleSheet (sheet) {
+          document.getElementById('pagestyle') .setAttribute('href', sheet);
+
+        }
+        </script>
+    <!-- This section covers the use of the header element to place my About, Work & Contact links to click.-->
+  	</head>
+  	<body>
+     <div class="headerbg">
+     <!-- The div section seperates a part of the code from the rest. This is so in the stylesheet I could add a plain blue background for all the text referened in this div element.-->
+  		<header>      
+      <!-- Here I used the Nav function so that the user can quickly navigate the page. the About and Work lables automatically scroll the user to that section of the page, while the Contact.html directs them to a different html webpage.-->
+  			<nav class="nav">
+  					<p>
+  						<a href='#about'>About</a>
+  					</p>
+  					<p>
+  						<a href='#work'>Work</a>
+  					</p>
+  					<p>
+  						<a href='Contact.html'>Contact</a>
+  					</p>
+  			</nav>
+    <!---->
+    <!-- This section i used the form element and the Get method so that when you click the button (written below) the Mountain.jpg will be downloaded.-->
+  		<form method="get" action="Mountain.jpg">	
+  		  <button name='Download CV button'>Download my CV </button>
+  		</form>
+      </header>
+    <!---->
+    <!-- Here i used the h1&h2 elements to write in large my name and job role.-->
+  		<h1 class="title1">Luca Sarno</h1>
+    	<h2 class="jobrole">Salesforce Consultant</h2>
+      </div>
+    <!---->
+    <!-- This section holds the images and the re-direct link to a URL when clicked on. the href covers where the page should link to when clicked on, and the img src is where the actual image is displayed and where to find it.-->
+     <section>
+    	<a href="https://www.salesforce.com/uk/?ir=1"><img src="https://www.littleblue.com/wp-content/uploads/2014/08/sales-block.png" alt="Salesforce" title="Salesforce logo" class="Salesforcelogo"></a>
+    	<a href="http://certification.salesforce.com/certification-detail-print?conId=003G000002e4MGJIA2"><img src="http://certification.salesforce.com/SFU_CRT_BDG_Admin_RGB.jpg?v=1" height="100" width= "175" alt="Salesforce Certifications"></a>
+     </section>
+    <!---->
+    <!-- This is the part of the code where I used the bootstrap to align the paragraph with the image, and to scale appropriatly when the page has been re-sized. The Div class col-sm-6 refers to the bootstrap, while the other div classes seperate the area from other text so that the bootstrap doesn't affect any other text.-->
+    	<p>This is my first website</p>
+    		<section id="about">
+    			<h1 class="aboutandwork">About</h1>
+          <div class="container">
+           <div class="row">
+            <div class="col-sm-6">
+             <img class="mypicture" src="IMG-20170108-WA0004.jpg" width="60%">
+            </div>
+            <div class="col-sm-6">
+    				 <p class="aboutme">I am Luca, a 18 year old self taught pianist, game lover, and nature walker. In my spare time depending on the day I either play on the piano, play online games with friends, or enjoy a lovely walk around the country side. I also enjoy walking and rollerblading around modern and large towns/cities such as London. </p>
+             </div>
+            </div>
+           </div>
+          </div>
+    		</section>
+    </div>
+     <!-- Using the section element I seperated some text from the others, so that the CSS code that adds golden lines will seperate this section appropriatly. the Li form is used to list in bullet points the parts of my work.-->
+    		<section id="work" class="experience">
+    			<h1 class="aboutandwork">Work</h1>
+    				<p class="experience1">I am a Apprentice Salesforce Consultant at Pracedo LTD. My role consists of the following:
+    				 <li class="experience1">Meeting with clients to discuss what they want to improve their Salesforce org</li>
+    				 <li class="experience1">Configuring Salesforce orgs for clients to meet their requirments</li>
+    				 <li class="experience1">Provide consliting over the phone, email, or in person</li>
+    				 <li class="experience1">Provide training either by creating training documents, or training in person</li></p>
+    		</section>
+        <!-- Finally, in this section, this is the text used and functions to switch the style sheets in the html. The onclick and swap style sheet parts of the code are forms that allow the ability to switch files when the text is clicked on.-->
+        <section id="background">
+        <nav id="theme">
+        <ul id="themelist">
+         <li class="themeli">
+          <a class="themelink" onclick= "swapStyleSheet('style.css')"">Landscape Background</a> <!--to refer to javascript-->
+         </li> 
+         <li class="themeli">
+          <a class="themelink" onclick= "swapStyleSheet('style alternative.css')">Dark Colour Background</a> <!--to refer to javascript-->
+         </li>
+         </ul>
+         </nav>
+    		</section>
+    	<footer><p> Created by: Luca Sarno
+  	</body>
+</html>
